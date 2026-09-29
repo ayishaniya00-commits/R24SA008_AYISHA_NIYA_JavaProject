@@ -1,0 +1,83 @@
+SAMPLE CONSOLE OUTPUT – END-TO-END RUN
+
+Input values used:
+Name: Ayisha Niya
+Email: ayisha@example.com
+Mobile: 9876543210
+REVA MART member: yes
+Menu 1: View Products
+Menu 3: Add product 101, quantity 2
+Menu 4: View Cart
+Menu 5: Checkout
+Payment: 2 (UPI)
+Menu 6: Exit
+
+==============================================
+       ONLINE SHOPPING MANAGEMENT SYSTEM
+==============================================
+Enter customer name: Ayisha Niya
+Enter email: ayisha@example.com
+Enter mobile number: 9876543210
+Are you a REVA MART member? (yes/no): yes
+
+========== REVA MART ==========
+Welcome, Ayisha niya!
+1. View Products
+2. Search Product
+3. Add Product to Cart
+4. View Cart
+5. Checkout
+6. Exit
+========================================
+Enter your choice: 1
+
+---------------- AVAILABLE PRODUCTS ----------------
+ID    Product                Category        Price
+-----------------------------------------------------
+101   Wireless Headphones    Electronics     ₹1499.00 | Boat | 12 months warranty
+102   Smart Watch            Electronics     ₹2499.00 | Noise | 12 months warranty
+103   Bluetooth Speaker      Electronics     ₹1799.00 | JBL | 24 months warranty
+201   Cotton T-Shirt         Clothing        ₹599.00 | Size: M | Cotton
+202   Denim Jacket           Clothing        ₹1899.00 | Size: L | Denim
+203   Sports Shoes           Clothing        ₹2299.00 | Size: 9 | Mesh
+
+Enter your choice: 3
+Enter product ID: 101
+Enter quantity: 2
+2 x Wireless Headphones added to cart. Item total: ₹2998.00
+
+Enter your choice: 4
+
+---------------- CART ----------------
+Wireless Headphones    Qty: 2   ₹2998.00
+--------------------------------------
+Items              : 2
+Subtotal           : ₹2998.00
+Member Discount    : ₹149.90
+GST (18%)          : ₹512.66
+Delivery Charge    : ₹0.00
+TOTAL              : ₹3360.76
+--------------------------------------
+
+Enter your choice: 5
+
+=============== CHECKOUT ===============
+Subtotal        : ₹2998.00
+Discount        : ₹149.90
+GST             : ₹512.66
+Delivery        : ₹0.00
+Final Amount    : ₹3360.76
+
+Payment Method:
+1. Cash on Delivery
+2. UPI
+3. Card
+Choose payment method: 2
+UPI payment accepted for ₹3360.76.
+Order placed successfully!
+Order number: 1
+
+Enter your choice: 6
+Thank you for shopping with REVA MART!
+
+END OF RUN — PROGRAM COMPLETED SUCCESSFULLY
